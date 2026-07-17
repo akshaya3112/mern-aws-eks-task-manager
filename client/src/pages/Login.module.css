@@ -1,0 +1,167 @@
+.page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  background:
+    radial-gradient(circle at top left, rgba(93, 63, 211, 0.35), transparent 30%),
+    linear-gradient(135deg, #050816 0%, #0f172a 50%, #111827 100%);
+}
+
+.panel {
+  width: min(1120px, 100%);
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 24px;
+  background: rgba(8, 15, 31, 0.84);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 25px 80px rgba(0, 0, 0, 0.35);
+  border-radius: 28px;
+  padding: 28px;
+  backdrop-filter: blur(20px);
+}
+
+.hero {
+  padding: 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.heroBadge {
+  display: inline-flex;
+  align-items: center;
+  align-self: flex-start;
+  padding: 8px 12px;
+  border-radius: 999px;
+  background: rgba(129, 140, 248, 0.18);
+  color: #c7d2fe;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.hero h1 {
+  font-size: clamp(2rem, 3vw, 2.8rem);
+  line-height: 1.1;
+  margin: 0 0 12px;
+}
+
+.hero p {
+  color: #9ba7c2;
+  font-size: 1rem;
+  line-height: 1.7;
+  margin: 0 0 16px;
+}
+
+.hero ul {
+  margin: 0;
+  padding-left: 18px;
+  color: #d1d5e1;
+  display: grid;
+  gap: 10px;
+}
+
+.formCard {
+  background: linear-gradient(180deg, rgba(255,255,255,0.06), rgba(255,255,255,0.03));
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 22px;
+  padding: 24px;
+}
+
+.formHeader {
+  margin-bottom: 18px;
+}
+
+.eyebrow {
+  margin: 0 0 6px;
+  color: #8b9dff;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+.formHeader h2 {
+  margin: 0 0 8px;
+  font-size: 1.6rem;
+}
+
+.formHeader p {
+  color: #9ba7c2;
+  margin: 0;
+}
+
+.form {
+  display: grid;
+  gap: 14px;
+}
+
+.inputGroup {
+  display: grid;
+  gap: 7px;
+}
+
+.inputGroup label {
+  color: #dfe5f6;
+  font-size: 0.95rem;
+}
+
+.inputGroup input {
+  width: 100%;
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 14px;
+  padding: 13px 14px;
+  background: rgba(255,255,255,0.04);
+  color: #f5f7ff;
+  outline: none;
+}
+
+.inputGroup input:focus {
+  border-color: #7c8cff;
+  box-shadow: 0 0 0 3px rgba(124, 140, 255, 0.2);
+}
+
+.primaryButton {
+  margin-top: 6px;
+  border: none;
+  border-radius: 14px;
+  padding: 13px 16px;
+  background: linear-gradient(135deg, #5b7cff, #7c3aed);
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 12px 24px rgba(92, 104, 255, 0.24);
+}
+
+.primaryButton:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 16px 30px rgba(92, 104, 255, 0.3);
+}
+
+.footerLink {
+  margin-top: 16px;
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  color: #9ba7c2;
+}
+
+.footerLink a {
+  color: #9db4ff;
+  font-weight: 600;
+}
+
+@media (max-width: 860px) {
+  .panel {
+    grid-template-columns: 1fr;
+  }
+
+  .hero {
+    padding: 8px;
+  }
+}
