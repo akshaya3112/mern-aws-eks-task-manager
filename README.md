@@ -44,8 +44,15 @@ DevOps
 
 ## 📸 Screenshots
 
-(Login)
-(Dashboard)
+Login page 
+<img width="1906" height="980" alt="image" src="https://github.com/user-attachments/assets/b54e97dd-3d4a-4d1d-93d9-d5f430f3e439" />
+
+Dashboard page
+<img width="1882" height="981" alt="image" src="https://github.com/user-attachments/assets/091c65d8-c2a0-4452-977b-a0ff5a5cca30" />
+<img width="1881" height="977" alt="image" src="https://github.com/user-attachments/assets/4792d22d-9f27-4cc4-a4d7-81b707e1c434" />
+
+
+
 
 ## 📂 Project Structure
 
