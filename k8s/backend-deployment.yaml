@@ -1,0 +1,30 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: backend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: backend
+  template:
+    metadata:
+      labels:
+        app: backend
+    spec:
+      containers:
+        - name: backend
+          image: 493499579626.dkr.ecr.ap-south-1.amazonaws.com/mern-backend:latest
+          ports:
+            - containerPort: 5000
+          env:
+            - name: PORT
+              value: "5000"
+
+            - name: MONGODB_URI
+              value: "mongodb+srv://project1_user:mernaws315@cluster0.otmxgug.mongodb.net/?appName=Cluster0"
+
+            - name: JWT_SECRET
+              value: "mysecretkey123"
+
+          imagePullPolicy: Always
