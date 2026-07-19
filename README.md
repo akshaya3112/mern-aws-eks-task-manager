@@ -1,4 +1,4 @@
-# 🚀 TaskFlow – MERN Task Management System
+<img width="1887" height="977" alt="image" src="https://github.com/user-attachments/assets/c11f57c8-279d-44e8-8167-5ce44e6431b3" /># 🚀 TaskFlow – MERN Task Management System
 
 A modern full-stack task management application built using the MERN stack with secure authentication, Docker, Kubernetes deployment, and responsive UI.
 
@@ -45,6 +45,19 @@ https://mern-aws-eks-task-manager.onrender.com
 - AWS EKS
 - Render
 - Vercel
+
+
+## 📸 Screenshots
+
+Login
+
+<img width="1905" height="968" alt="image" src="https://github.com/user-attachments/assets/5c493275-82f7-4fe8-a4a4-0c9476e3c77f" />
+
+Dashboard
+
+<img width="1887" height="977" alt="image" src="https://github.com/user-attachments/assets/3985c63a-7de1-4cf6-8f22-6b93ee79cc48" />
+<img width="1886" height="972" alt="image" src="https://github.com/user-attachments/assets/545f2b74-0c1b-47cf-827c-43c32b2b381a" />
+
 
 ## 📂 Project Structure
 
