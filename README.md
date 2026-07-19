@@ -1,4 +1,4 @@
-<img width="1887" height="977" alt="image" src="https://github.com/user-attachments/assets/c11f57c8-279d-44e8-8167-5ce44e6431b3" /># 🚀 TaskFlow – MERN Task Management System
+# 🚀 TaskFlow – MERN Task Management System
 
 A modern full-stack task management application built using the MERN stack with secure authentication, Docker, Kubernetes deployment, and responsive UI.
 
